@@ -13,3 +13,5 @@ MatPlotLib 3.7.1
 SeaBorn 0.12.2
 
 Plotly 5.1.14
+
+IPython 8.14.0
