@@ -30,4 +30,15 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import missingno as msno
 import plotly.offline as py
+
 py.init_notebook_mode(connected=True)
+
+import warnings
+
+warnings.filterwarnings('ignore')
+
+# Читаем датасет
+df = pd.read_csv('C:/Users/devdi/PycharmProjects/Work_with_datasets_pandas_numpy/Datasets/task 2 - World Population by Country.csv')
+
+# Показать первых 10 записей из датасета (таблицы)
+print(df.head(10))
